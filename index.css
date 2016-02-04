@@ -61,7 +61,7 @@ textarea {
 	display: inline-block;
 	width: 720px;
 	padding: 10px;
-	margin-left: 40px;
+	margin-left: 10px;
 
 	/*outline: 1px dashed red;*/
 }
@@ -111,6 +111,7 @@ h1 {
 
 	padding: 15px;
 	display:none;
+	overflow: auto;
 }
 .front p {
 	text-align: center;
