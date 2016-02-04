@@ -1,5 +1,5 @@
 * {
-	vertical-align: baseline;
+	vertical-align: top;
 	font-weight: inherit;
 	font-family: 'Open Sans', sans-serif;
 	font-style: inherit;
@@ -59,9 +59,9 @@ textarea {
 }
 #cards {
 	display: inline-block;
-	width: 380px;
+	width: 720px;
 	padding: 10px;
-	margin-left: 50px;
+	margin-left: 40px;
 
 	/*outline: 1px dashed red;*/
 }
@@ -70,23 +70,41 @@ textarea {
 }
 .card {
 	outline: 1px solid #CCCCCC;
+	display: inline-block;
 
-	width: 300px;
-	height: 160px;
+	width: 330px;
+	height: 190px;
 
 	box-shadow: 3px 3px 3px #808080;
 
 	color: #666666;
 
 	margin-bottom: 20px;
+	margin-right: 20px;
 }
 h1 {
 	font-weight: bolder;
-	font-size: 56px;
+	font-size: 36px;
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 40px;
+}
+.front {
+	height: 100%;
+	width: 100%;
+
+	/*outline: 2px dashed red;*/
+}
+.back {
+	width: 300px;
+	height: 160px;
+
+	/*outline: 2px dashed green;*/
+	vertical-align: top;
+
+	padding: 15px;
+	display:none;
 }
 .front p {
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 50px;
 }
