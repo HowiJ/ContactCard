@@ -1,0 +1,92 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: 'Open Sans', sans-serif;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+form {
+	display: inline-block;
+	width: 300px;
+
+	/*outline: 1px dashed green;*/
+	vertical-align: top;
+	padding: 35px;
+}
+input {
+	border: 1px solid #808080;
+	margin-bottom: 10px;
+	padding: 2px;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	box-shadow: 3px 3px 3px #666666;
+}
+.name {
+	width: 202px;
+	padding: 1px 2px 1px 3px;
+}
+form :nth-child(3) {
+	margin: 40px 0px 10px;
+}
+textarea {
+	width: 280px;
+	height: 140px;
+	border: 1px solid #808080;
+	resize:none;
+	padding: 5px;
+	margin-bottom: 20px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	box-shadow: 3px 3px 3px #666666;
+}
+#submit {
+	font-weight: bold;
+	padding: 3px 5px;
+	color: #808080;
+}
+#submit:hover {
+	cursor: pointer;
+	background-color: #7F7F7F;
+	box-shadow: 1px 1px 1px #808080;
+	color: #CCCCCC;
+}
+#cards {
+	display: inline-block;
+	width: 380px;
+	padding: 10px;
+	margin-left: 50px;
+
+	/*outline: 1px dashed red;*/
+}
+.card:hover {
+	cursor: pointer;
+}
+.card {
+	outline: 1px solid #CCCCCC;
+
+	width: 300px;
+	height: 160px;
+
+	box-shadow: 3px 3px 3px #808080;
+
+	color: #666666;
+
+	margin-bottom: 20px;
+}
+h1 {
+	font-weight: bolder;
+	font-size: 56px;
+	text-align: center;
+	padding-top: 30px;
+}
+.front p {
+	text-align: center;
+	padding-top: 30px;
+}
