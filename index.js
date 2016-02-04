@@ -59,6 +59,6 @@ $( document ).ready( function () {
 
 //Creates a card using the inputted variables.
 function createCard (n, d) {
-	var app = "<div class='card'><div class='front'><h1>"+n+"</h1><p>Click for description</p></div><p class='back'>"+d+"</p></div>"
+	var app = "<div class='card'><div class='front'><h1>"+n+"</h1><p></p></div><p class='back'>"+d+"</p></div>"
 	return app;
 }
